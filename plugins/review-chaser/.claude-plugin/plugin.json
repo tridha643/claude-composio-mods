@@ -1,0 +1,9 @@
+{
+  "name": "review-chaser",
+  "version": "0.1.0",
+  "description": "/reviews pane: open ComposioHQ PRs waiting on reviewers, with a Slack nudge per reviewer",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  }
+}

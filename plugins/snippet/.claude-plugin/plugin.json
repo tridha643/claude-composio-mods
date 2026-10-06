@@ -1,0 +1,17 @@
+{
+  "name": "snippet",
+  "version": "0.1.0",
+  "description": "/snippet drafts your daily Slack update from Linear + GitHub and posts it on one press",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "channel": {
+      "type": "string",
+      "title": "Slack channel",
+      "description": "Channel id or name the Post button sends to. Empty hides the button.",
+      "default": ""
+    }
+  },
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ticket-band",
+  "version": "0.1.0",
+  "description": "Linear ticket for the current branch above the prompt, with one-press Done once every PR merged",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  },
+  "userConfig": {
+    "team_keys": {
+      "type": "string",
+      "title": "Linear team keys",
+      "description": "Comma-separated team keys to look for in branch names, e.g. ENG,OPS. Empty matches any KEY-123.",
+      "default": ""
+    }
+  }
+}

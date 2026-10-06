@@ -1,0 +1,53 @@
+{
+  "name": "claude-composio-mods",
+  "owner": {
+    "name": "Tridhatri Vallamkondu"
+  },
+  "metadata": {
+    "description": "Claude Code mods powered by the Composio CLI"
+  },
+  "plugins": [
+    {
+      "name": "composio-daily",
+      "source": "./plugins/composio-daily",
+      "description": "Standup pane, seen-this-before error lookup and agent-busy Slack status, through the Composio CLI",
+      "version": "0.1.0"
+    },
+    {
+      "name": "composio-pulse",
+      "source": "./plugins/composio-pulse",
+      "description": "Times every composio CLI call into a status-line sparkline against a latency budget, and blocks re-linking a connected toolkit",
+      "version": "0.1.0"
+    },
+    {
+      "name": "link-prefetch",
+      "source": "./plugins/link-prefetch",
+      "description": "Paste a Slack thread, Linear issue or GitHub PR link and Claude gets its contents as context before it answers",
+      "version": "0.1.0"
+    },
+    {
+      "name": "review-chaser",
+      "source": "./plugins/review-chaser",
+      "description": "/reviews pane: open ComposioHQ PRs waiting on reviewers, with a Slack nudge per reviewer",
+      "version": "0.1.0"
+    },
+    {
+      "name": "review-lint",
+      "source": "./plugins/review-lint",
+      "description": "Hands Claude a cache-review checklist or test rules when an edit adds a cache or a brittle test assertion",
+      "version": "0.1.0"
+    },
+    {
+      "name": "snippet",
+      "source": "./plugins/snippet",
+      "description": "/snippet drafts your daily Slack update from Linear + GitHub and posts it on one press",
+      "version": "0.1.0"
+    },
+    {
+      "name": "ticket-band",
+      "source": "./plugins/ticket-band",
+      "description": "Linear ticket for the current branch above the prompt, with one-press Done once every PR merged",
+      "version": "0.1.0"
+    }
+  ]
+}

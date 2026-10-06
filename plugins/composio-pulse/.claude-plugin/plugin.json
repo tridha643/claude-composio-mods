@@ -1,0 +1,16 @@
+{
+  "name": "composio-pulse",
+  "version": "0.1.0",
+  "description": "Times every composio CLI call into a status-line sparkline against a latency budget, and blocks re-linking a connected toolkit",
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  },
+  "userConfig": {
+    "search_budget_ms": {
+      "type": "number",
+      "title": "Search latency budget (ms)",
+      "description": "Marks the median composio search time ✓ or ✗ against this budget in the status line. 0 hides the mark.",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "review-lint",
+  "version": "0.1.0",
+  "description": "Hands Claude a cache-review checklist or test rules when an edit adds a cache or a brittle test assertion",
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  }
+}

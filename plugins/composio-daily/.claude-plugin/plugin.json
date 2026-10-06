@@ -1,0 +1,17 @@
+{
+  "name": "composio-daily",
+  "version": "0.1.0",
+  "description": "Standup pane, seen-this-before error lookup and agent-busy Slack status, through the Composio CLI",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "standup_channel": {
+      "type": "string",
+      "title": "Standup Slack channel",
+      "description": "Channel id or name the standup pane's Post button sends to. Empty hides the button.",
+      "default": ""
+    }
+  },
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  }
+}

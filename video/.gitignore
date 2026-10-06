@@ -1,0 +1,7 @@
+target/
+frames/
+strip*.png
+onion.png
+w.png
+*.diff.png
+*.actual.png

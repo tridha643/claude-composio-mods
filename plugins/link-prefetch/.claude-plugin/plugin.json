@@ -1,0 +1,8 @@
+{
+  "name": "link-prefetch",
+  "version": "0.1.0",
+  "description": "Paste a Slack thread, Linear issue or GitHub PR link and Claude gets its contents as context before it answers",
+  "author": {
+    "name": "Tridhatri Vallamkondu"
+  }
+}
